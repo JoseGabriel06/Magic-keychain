@@ -1,0 +1,22 @@
+/* Paleta de colores */
+:root{
+  --ColorPrincipal: #055CCF;
+  --ColorSecundario: #FFAD16;
+  --ColorPalido: #549BFC;
+  --OscuroClaro: #444444;
+}
+
+/* Estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Contenedor Producto */
+
+.contenedor_producto{
+   background-color: var(--ColorPrincipal);
+   width: 100%;
+   height: 90vh;
+}
